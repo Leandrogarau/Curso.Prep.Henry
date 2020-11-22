@@ -106,7 +106,9 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  
+  for (var i = 0; i < multiplicarArgumentos.arguments.length)
+  multiplicarArgumentos.arguments
+
 }
 
 // No modificar nada debajo de esta línea
