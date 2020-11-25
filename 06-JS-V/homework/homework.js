@@ -15,6 +15,8 @@ function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
+  Constructor.prototype.saludar = function() {return "Hello World!" }
+  // Tu código: }
 
 }
 
@@ -24,8 +26,9 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
+String.prototype.reverse() { return this.String[5] + this.String[4] + this.String[3] + this.String[2] + this.String[1] + this.String [0] }
+} 
 
-}
 
 // No modificar nada debajo de esta línea
 // --------------------------------

@@ -106,10 +106,18 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  for (var i = 0; i < multiplicarArgumentos.arguments.length)
-  multiplicarArgumentos.arguments
+  producto = 1
+    if (multiplicarArgumentos.arguments.length == 0) { return 0 }
+
+  if (multiplicarArgumentos.arguments.length == 1) {return multiplicarArgumentos.arguments[0] }
+  for (var i = 0; i < multiplicarArgumentos.arguments.length; i++) {
+
+  producto = producto * multiplicarArgumentos.arguments[i] 
+  }
+  return producto
 
 }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
