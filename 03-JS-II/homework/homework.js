@@ -5,14 +5,9 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if ( x > y ) {
-    return x
-  }
-else {
-  return y
+  if (x > y) {return x}
+    return y
 }
-}
-
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -21,28 +16,27 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma === 'aleman') {return 'Guten Tag!' }
-    else if (idioma === 'mandarin') { return 'Ni Hao!' }
-     else if (idioma === 'ingles') { return 'Hello!' }
-        else { return 'Hola!' }
+  if (idioma == 'aleman') {return "Guten Tag!"} 
+     if (idioma == 'mandarin') {return "Ni Hao!"} 
+       if (idioma == 'ingles') {return "Hello!"} 
+         else return 'Hola!'
 }
 
 function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (numero == 10) {return true}
-      else if (numero == 5) {return true}
-        else {return false}
+    if (numero == 10 ) {return true}
+      if (numero == 5) {return true}
+      else  {return false}
 }
-
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero <50 && numero >20) { return true }
-  else { return false } 
+  if (numero < 50 && numero > 20) {return true}
+    return false
 }
 
 function esEntero(numero) {
@@ -53,8 +47,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero == Math.floor(numero)) { return true }
-    else { return false }
+  if (Math.floor (numero) == numero) {return true}
+  return false 
 }
 
 function fizzBuzz(numero) {
@@ -66,7 +60,7 @@ function fizzBuzz(numero) {
     else if (numero % 3 == 0 ) { return 'fizz' }
     else if (numero % 5 == 0)  { return 'buzz' }
       else { return numero }
-}
+    }
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -78,13 +72,11 @@ if (numero <2) {return false}
 for (var i = numero - 1 ; i >= 2; i--) {
     if (numero % i == 0) { return false }
      }
-   return true }
+   return true 
+ }
 
 
-
-
-
-// 2o modificar nada debajo de esta línea
+// No modificar nada debajo de esta línea
 // --------------------------------
 
 module.exports = {

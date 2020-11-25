@@ -1,0 +1,19 @@
+Definiciones:
+
+for
+
+El bucle for es una herramienta que podemos utilizar en nuestras lineas de codigo, para obtener un resultado.
+Al utilizarlo le estamos diciendo a el interprete que queremos realizar determinada accion hasta que se cumpla determinada condicion.
+Para esto tenemos que definir dentro de los parametros cual seria nuestro punto de partida, osea desde donde vamos a aplicar la accion, definir que condicion deberia darse para que ya no repita dicha accion, y determinar tambien cual seria la condicion en que el valor inicial se va a ir modificando.
+Esta herramienta se puede utilizar para comprobar o modificar listas o matrices de muchos elementos.
+
+&& 
+esta expresion significa "y" y lo podemos utilizar para las comprobaciones. Por ejemplo si yo necesito comprobar que 2 elementos cumplan con determinada condicion para devolver un resultado.
+
+|| 
+Esta expresion significa "o" y la podemos utilizar cuando necesitamos que solamente uno de los dos elementos cumplan con determinada condicion para devolver un resultado.
+
+!
+Esta expresion significa "no" y se refiere a invertir la definicion del elemento siguiente. Por ejemplo si estoy comparando un elemento con otro utilizoando ==, espero que el interprete me devuelva un resultado de verdadero o falso. Pero si yo quiero que el interprete analize si esos objetos son diferentes y me responda con verdadero o falso, se antepone !. 
+En sintesis, invierte el resultado del elemento al cual se le esta aplicando.
+ 
