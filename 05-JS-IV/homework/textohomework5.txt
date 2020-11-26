@@ -1,0 +1,19 @@
+Objetos
+Los objetos son colecciones de propiedades, donde cada propiedad es una asociacion entre un nombre y un valor. 
+Los objetos pueden tener indefinidas propiedades y nos dan la posibilidad de acceder a cada una de ellas. 
+
+Propiedades
+Una propiedad es un elemento de un objeto, el cual puede ser cualquier tipo de dato, otro objeto, un arreglo o una funcion (metodo).
+ Podemos referenciarlo facilmente con notaciones, y modificar sus valores, o interactuar con ellas. Cada propiedad funciona como un indice de los valores que contiene.
+
+Métodos
+Un metodo es una funcion dentro de un objeto. Se lo llama metodo por que asi se definia en otros lenguajes.
+Se utilizan metodos dentro de los objetos que tienen alcanze solo dentro del mismo, o nos sirve para referenciar dentro del codigo elementos del propio objeto. 
+
+Bucle for…in
+El for es una estructura de control con la cual podemos recorrer y modificar los datos. 
+Nos da herramientas para poder definir desde que dato hasta que dato queremos recorrer, y que modificacion o parametro queremos buscar o aplicar. 
+
+Notación de puntos vs notación de corchete
+Estas notaciones representan una forma de llamar una propiedad dentro de un objeto.
+Si bien la notacion de punto es mas simple y abreviada a la hora de armar un codigo, con la notacion de corchete tiene mas funcionalidad.
