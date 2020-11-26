@@ -1,0 +1,4 @@
+Arrays
+
+Representan una lista de elementos ordenada con numero de indice dado por su ubicacion dentro del mismo. 
+Son variables a las cuales les podemos asignar dentro multiples elementos ('strings', numeros, booleanos, funciones, arrays, etc) los cuales siempre van a estar ordenados por un numero asignado por su orden, por el cual podemos acceder a los elementos.
