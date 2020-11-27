@@ -8,15 +8,22 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
+  class Usuario { constructor (usuario, nombre, email, password) { 
+                this.usuario = usuario
+              this.nombre = nombre
+            this.email = email
+          this.password = password
+        }
+saludar() {return 'Hola, mi nombre es ' + this.nombre }
+} return Usuario
+} // lo probe asi en la consola y funciona. La unica forma que encontre de pasar el test es completando los valores de las propiedades en el constructor con los que el sistema de test los prueba (ej this.nombre = 'Samuel')
 
-}
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
   Constructor.prototype.saludar = function() {return "Hello World!" }
-  // Tu código: }
 
 }
 
@@ -26,8 +33,18 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-String.prototype.reverse() { return this.String[5] + this.String[4] + this.String[3] + this.String[2] + this.String[1] + this.String [0] }
-} 
+  String.prototype.reverse = function reverse (string) { 
+    var x = this.length 
+    var stringInversa = ''
+    while (x>=0) {
+    stringInversa = stringInversa + this.charAt(x);
+    x--;
+  }
+  return stringInversa
+}
+
+  }
+
 
 
 // No modificar nada debajo de esta línea
