@@ -8,15 +8,15 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  class Usuario { constructor (usuario, nombre, email, password) { 
-                this.usuario = usuario
-              this.nombre = nombre
-            this.email = email
-          this.password = password
+  class Usuario { constructor (opciones) { 
+                this.usuario = opciones.usuario
+              this.nombre = opciones.nombre
+            this.email = opciones.email
+          this.password = opciones.password
         }
 saludar() {return 'Hola, mi nombre es ' + this.nombre }
 } return Usuario
-} // lo probe asi en la consola y funciona. La unica forma que encontre de pasar el test es completando los valores de las propiedades en el constructor con los que el sistema de test los prueba (ej this.nombre = 'Samuel')
+} // lo probe asi en la consola y funciona bien. La unica forma que encontre de pasar el test es completando los valores de las propiedades en el constructor con los que el sistema de test los prueba (ej this.nombre = 'Samuel')
 
 
 function agregarMetodoPrototype(Constructor) {
