@@ -1,0 +1,29 @@
+		body { 
+			background:url(https://cdn.colombia.com/sdi/2013/02/12/6e34d6ac5bee497d96d891703a98f50d.jpg); 
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			position: absolute;
+			background-size: 100% ;
+
+			}
+
+
+		h1 {
+			color:limegreen;
+			}
+		img {
+			width: 400px
+			}
+		#ThirdDiv {
+			width: 500px ;
+			height: 600px;
+			background-color: green ;
+			padding: 50px ;
+			border-width: 60px;
+			border-radius: 200px;
+			
+			}
+		#spanId {
+			font-size: 18px ;
+			margin: 50px ;
+				}
